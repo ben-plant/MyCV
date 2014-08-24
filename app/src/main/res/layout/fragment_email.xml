@@ -1,0 +1,96 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginRight="16sp"
+        android:background="@color/letter_back"
+        android:padding="12sp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/dear_ben"
+                android:id="@+id/textView"
+                android:gravity="center_vertical"
+                android:layout_weight="0.95"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="45sp"
+                android:textColor="@color/letter_ink" />
+
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:id="@+id/imageView"
+                android:src="@drawable/mail"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0.05"
+                android:tint="@color/letter_ink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout"
+            android:id="@+id/linearLayout2"
+            android:weightSum="1.0">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.975"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
+                android:layout_marginLeft="12sp"
+                android:layout_marginRight="12sp">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ipsum ac egestas gravida. Proin quam nisi, fermentum id libero a, fringilla volutpat purus. Maecenas arcu risus, vehicula eu lobortis id, varius at quam. Donec porta sagittis sodales. Nulla ut felis sed nulla feugiat hendrerit id vitae enim. Phasellus id tempor enim. Vestibulum at semper augue. Nam non dui neque. Nulla gravida mollis egestas. Cras non quam tristique, dapibus sem a, vulputate lectus. Proin mollis at dui nec consequat. Nam molestie nec purus at tempus. Sed fringilla lacus eget ligula aliquet, ac cursus lectus euismod.  Aenean in urna imperdiet, consectetur mi et, posuere diam. Fusce ultrices turpis et nisl faucibus, sit amet cursus diam fermentum. Nam faucibus tortor dui, id efficitur dolor ultrices ac. Quisque varius dolor eu ligula lacinia, et tristique nulla ornare. In sagittis, turpis in tempor rhoncus, ligula sapien vehicula dui, id dapibus ipsum est in eros. In mollis justo ligula, a dictum leo laoreet quis. Nunc laoreet consectetur est quis gravida. Aliquam sed imperdiet leo, et egestas justo. Donec semper nisl ut lorem scelerisque, sit amet efficitur risus molestie. Curabitur id orci euismod, pharetra lorem id, bibendum ligula. Aliquam imperdiet nunc a neque convallis condimentum. Nulla ultricies mi efficitur lectus luctus, eget mollis neque gravida. Aenean iaculis enim id ligula convallis sagittis.  Suspendisse ut interdum velit. Curabitur vitae leo leo. Quisque iaculis nisl eros, aliquet aliquam diam pharetra nec. Maecenas pretium tincidunt ipsum. Suspendisse eget sagittis leo. Morbi porta felis urna, eu fringilla lacus vestibulum eget. Maecenas facilisis posuere elit vel eleifend. Quisque pellentesque pulvinar libero, semper suscipit purus gravida id. Etiam vulputate porttitor eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam eu lacus metus. Fusce fermentum lectus tortor, nec viverra quam placerat sit amet. Vivamus et auctor massa, vestibulum consequat purus. Mauris sollicitudin a nisi at pulvinar. Aenean metus neque, posuere id risus a, egestas luctus arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra,"
+                        android:id="@+id/textView2"
+                        android:textColor="@color/letter_ink"
+                        android:fontFamily="sans-serif-condensed" />
+                </ScrollView>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:id="@+id/emailSendButton"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_alignStart="@+id/linearLayout2"
+                android:layout_alignBottom="@+id/linearLayout"
+                android:layout_weight="0.025"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
+                android:background="@drawable/letter_button_back" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

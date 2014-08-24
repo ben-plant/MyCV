@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCV</string>
+    <string name="title_section1">ABOUT</string>
+    <string name="section1_sh1">Biography</string>
+    <string name="section1_sh2">Skills</string>
+    <string name="title_section2">ANDROID</string>
+    <string name="section2_sh1">Qu</string>
+    <string name="section2_sh2">SuperTrainer</string>
+    <string name="section2_sh3">MyCV</string>
+    <string name="title_section3">WEBSITES</string>
+    <string name="section3_sh1">Full sites</string>
+    <string name="section3_sh2">Back ends</string>
+    <string name="title_section4">OTHER</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="mail_me">Email</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dear_ben">Contact Me</string>
+    <string name="submit">Send</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#673ab7</color>
+    <color name="window_bg_grey">#ffb8b8b8</color>
+
+    <color name="title_1">#B9090B</color>
+    <color name="title_2">#55ACEE</color>
+    <color name="title_3">#7AB800</color>
+
+    <color name="letter_back">#FEF1E0</color>
+    <color name="letter_button_back">#F6E6CE</color>
+    <color name="letter_button_back_dk">#ACA190</color>
+    <color name="letter_ink">#3B2E2A</color>
+</resources>
